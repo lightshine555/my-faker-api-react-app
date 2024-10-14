@@ -18,8 +18,8 @@ To get started with this project, you'll need to have Node.js and npm installed 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/my-faker-app.git
-cd my-faker-app
+git clone https://github.com/lightshine555/my-faker-api-react-app.git
+cd my-faker-api-react-app
 ```
 
 2. Install the dependencies:
