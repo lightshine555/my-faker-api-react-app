@@ -40,8 +40,9 @@ To run the application, use the following command:
 
 ```bash
 npm start
-This will start the development server and open the application in your default web browser.
 ```
+
+This will start the development server and open the application in your default web browser.
 
 # License
 
