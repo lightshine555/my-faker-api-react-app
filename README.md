@@ -44,6 +44,6 @@ npm start
 
 This will start the development server and open the application in your default web browser.
 
-# License
+## License
 
 This project is licensed under the MIT License.
