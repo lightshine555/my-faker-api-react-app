@@ -1,0 +1,42 @@
+@import 'scss/_variables'; // Import the variables
+
+$image-border-radius: 8px;
+$image-transition-time: 0.3s;
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
+  .image-card {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid $border;
+    border-radius: $image-border-radius;
+    overflow: hidden;
+    transition: transform $image-transition-time;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 380px;
+      height: 480px;
+      border-bottom: 1px solid $border;
+    }
+
+    h2 {
+      margin: 10px;
+      font-size: 1.2em;
+      color: $secondary;
+    }
+
+    p {
+      margin: 10px;
+      font-size: 0.9em;
+      color: $text-color;
+    }
+  }
+}

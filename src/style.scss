@@ -1,0 +1,14 @@
+@import 'scss/variables';
+
+body {
+  background-color: $background;
+  color: $text-color;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: $primary;
+}
